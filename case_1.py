@@ -16,6 +16,7 @@ def handle_sign_up_form(username, password, email, phone):
                 else:
                     return {
                         'status': '400',
+                        # This code is so hard to read, that I made a mistake in error message
                         'details': 'Invalid or taken username'
                     }
             else:
