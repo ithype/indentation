@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 
+
 class Validator:
     VALIDATORS = {
         'email': Validator.check_email,
